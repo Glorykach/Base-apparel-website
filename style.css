@@ -1,0 +1,409 @@
+@media only screen and (min-width: 921px){ 
+    
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        overflow-anchor: none;
+        width: 100%;
+        background:linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+    }
+    .parent-container{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        width: 100%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .complete-button{
+        position: relative;
+        left: 40%;
+        bottom: 45px;
+        border: none;
+        width: 100%;
+        
+    }
+    .button{
+        border-radius: 20px;
+        width: 11%;
+        height: 45px;
+        background: linear-gradient(to left,hsl(0, 74%, 74%), hsl(0, 80%, 86%));
+        border: none;
+        position: relative;
+        outline: none;
+    }
+    #SubmitId:hover{
+        width:11%;  
+        height: 45px;
+        background: hsl(0, 80%, 86%); 
+        cursor: pointer;
+    }
+    
+    #SubmitId:focus{
+        box-shadow:rgba(0, 0, 0, 0.315) 0px 0px 15px;   
+    } 
+    .arrow{
+        position: relative;
+        left: -6.5%;
+        top: -11px;
+    }
+    .container-1{
+        width: 100%;
+        background: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+        height: 100%;
+    }
+    .container1-writeup{
+        position: relative;
+        bottom: 500px;
+    }
+    .container-2{
+        position: relative;
+        bottom: 50px;
+        width: 150%;
+        height: 675px;
+        background: url("./images/hero-desktop.jpg") 700px 0px no-repeat;
+        background-size:contain;
+    }
+    .hero{
+        width: 100%;
+        object-fit: contain;
+        height: 130%;
+        position: relative;
+    }
+    
+    ::placeholder{
+        font-family:'Josefin Sans'; 
+        position: relative;
+        left: -0%;
+        color: hsl(0, 36%, 70%);
+    }
+    
+    #EmailId{
+        border: hsl(0, 36%, 70%) 1px solid;
+        height: 33px;
+        width: 39%;
+        border-radius: 22px;
+        outline: none;
+        padding: 5px 25px; 
+        background: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+    }
+    
+        #WarningText{
+            display: none;
+            position: relative;
+            left: 2%;
+            bottom: 40px;
+            color: hsl(0, 64%, 78%);
+            font-size: 0.7rem;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+            padding-bottom: 2px;
+        }
+    
+    .Logo{
+        position: relative;
+        top: 60px;
+        left: 10%;
+    }
+    .header1{
+        color: hsl(0, 36%, 70%);
+        font-family: 'Josefin Sans';
+        font-weight: 600;
+    }
+    .header2{
+        color: hsl(0, 6%, 24%);
+        font-family: 'Josefin Sans';
+        font-weight: 600;
+    }
+    .write-up{
+        color: hsl(0, 36%, 70%);
+        font-family: 'Josefin Sans';
+        font-size: 1rem;
+    }
+
+    .WRITE-UP{
+        position: relative;
+        top: 20px;
+        left: 10%;
+    }
+
+    .FORM{
+        position: relative;
+        top: 20px; 
+        left:10%;
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 921px){ 
+    
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-anchor: none;
+        width: 100%;
+        background:linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+    }
+    .parent-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .complete-button{
+        position: relative;
+        left: 39%;
+        bottom: 50px;
+        border: none;
+        
+    }
+    .button{
+        border-radius: 20px;
+        width: 11%;
+        height: 50px;
+        background: linear-gradient(to left,hsl(0, 74%, 74%), hsl(0, 80%, 86%));
+        border: none;
+        position: relative;
+        outline: none;
+    }
+    #SubmitId:hover{
+        width:11%;  
+        height: 50px;
+        background: hsl(0, 80%, 86%); 
+        cursor: pointer;
+    }
+    
+    #SubmitId:focus{
+        box-shadow:rgba(0, 0, 0, 0.315) 0px 0px 15px;   
+    } 
+    .arrow{
+        position: relative;
+        left: -6.5%;
+        top: -13px;
+    }
+    .container-1{
+        width: 100%;
+        background: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+        height: 100%;
+    }
+    .container1-writeup{
+        position: relative;
+        left: 20%;
+    }
+    .container-2{
+        width: 100%;
+        height: 500px;
+        background: url("./images/hero-desktop.jpg") center 100px no-repeat;
+        background-size: cover;
+        
+    }
+    .WRITE-UP{
+        position: relative;
+        left: -20%;
+        top: 80px;
+    }
+    .FORM{
+        position: relative;
+        left: 6%;
+        bottom: -90px;
+    }
+    
+    ::placeholder{
+        font-family:'Josefin Sans'; 
+        position: relative;
+        left: -0%;
+        color: hsl(0, 36%, 70%);
+    }
+    
+    #EmailId{
+        border: hsl(0, 36%, 70%) 1px solid;
+        height: 37px;
+        width: 37%;
+        border-radius: 22px;
+        outline: none;
+        padding: 5px 25px; 
+        background: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));;
+    }
+    
+        #WarningText{
+            display: none;
+            position: relative;
+            left: 2%;
+            bottom: 40px;
+            color: hsl(0, 64%, 78%);
+            font-size: 0.7rem;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+            padding-bottom: 2px;
+        }
+    
+    .Logo{
+        position: relative;
+        top: 60px;
+        left: 20%;
+    }
+    .header1{
+        color: hsl(0, 36%, 70%);
+        font-family: 'Josefin Sans';
+        font-weight: 300;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .header2{
+        color: hsl(0, 6%, 24%);
+        font-family: 'Josefin Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .write-up{
+        color: hsl(0, 36%, 70%);
+        font-family: 'Josefin Sans';
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 425px){ 
+    
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+        width: 100%;
+        background:linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+    }
+    .parent-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .complete-button{
+        position: relative;
+        left: 49%;
+        bottom: 47px;
+        border: none;
+        
+    }
+    .button{
+        border-radius: 20px;
+        width: 19%;
+        height: 47px;
+        background: linear-gradient(to left,hsl(0, 74%, 74%), hsl(0, 80%, 86%));
+        border: none;
+        position: relative;
+        outline: none;
+    }
+    #SubmitId:hover{
+        width:16%;  
+        height: 47px;
+        background: hsl(0, 80%, 86%); 
+        cursor: pointer;
+    }
+    
+    #SubmitId:focus{
+        box-shadow:rgba(0, 0, 0, 0.315) 0px 0px 15px;   
+    } 
+    .arrow{
+        position: relative;
+        left: -11.5%;
+        top: -13px;
+    }
+    .container-1{
+        width: 100%;
+        background: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+        height: 100%;
+    }
+    .container1-writeup{
+        position: relative;
+        left: 20%;
+    }
+    .container-2{
+        width: 100%;
+        height: 500px;
+        background: url("./images/hero-mobile.jpg") center 100px -50px no-repeat;
+        background-size: cover;
+        
+    }
+    .WRITE-UP{
+        position: relative;
+        left: -20%;
+        top: 50px;
+    }
+    .FORM{
+        position: relative;
+        left: -3%;
+        bottom: -60px;
+    }
+    
+    ::placeholder{
+        font-family:'Josefin Sans'; 
+        position: relative;
+        left: -0%;
+        color: hsl(0, 36%, 70%);
+    }
+    
+    #EmailId{
+        border: hsl(0, 36%, 70%) 1px solid;
+        height: 35px;
+        width: 47%;
+        border-radius: 22px;
+        outline: none;
+        padding: 5px 25px; 
+        background: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 0%, 100%),  hsl(0, 100%, 98%));;
+    }
+    
+        #WarningText{
+            display: none;
+            position: relative;
+            left: 2%;
+            bottom: 40px;
+            color: hsl(0, 64%, 78%);
+            font-size: 0.7rem;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+            padding-bottom: 2px;
+        }
+    
+    .Logo{
+        position: relative;
+        top: 60px;
+        left: 10%;
+    }
+    .header1{
+        color: hsl(0, 36%, 70%);
+        font-family: 'Josefin Sans';
+        font-weight: 300;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .header2{
+        color: hsl(0, 6%, 24%);
+        font-family: 'Josefin Sans';
+        font-weight: 600;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .write-up{
+        color: hsl(0, 36%, 70%);
+        font-family: 'Josefin Sans';
+        font-size: 1rem;
+        text-align: center;
+        width: 70%;
+        position: relative;
+        left: 14%;
+    }
+}
+
