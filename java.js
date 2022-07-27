@@ -1,6 +1,6 @@
 function SUBMIT(){
     if (document.getElementById("EmailId").value==""){
-    document.getElementById("EmailId").style.background="icon url('./Images/icon-error.svg') 98% 40% no-repeat";
+    document.getElementById("EmailId").style.background="url('./Images/icon-error.svg') 98% 40% no-repeat";
     document.getElementById("WarningText").style.display="block";
     document.getElementById("EmailId").style.border="1px solid red";
     
