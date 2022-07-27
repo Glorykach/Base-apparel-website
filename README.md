@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://glorykach.github.io/Base-apparel-website/)
+- Solution URL: [See solution URL here](https://glorykach.github.io/Base-apparel-website/)
 
 ### Built with
 
